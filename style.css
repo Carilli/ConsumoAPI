@@ -1,0 +1,77 @@
+/* Reset e configurações globais */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    background: #EFF3F4;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    background-color: #7baf00;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 3px 10px #727272;
+}
+
+.container {
+    max-width: 100vw;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+    margin: 10px;
+    border-radius: 8px;
+    background: white;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.13), 0 6px 6px rgba(0, 0, 0, 0.19);
+}
+
+.card-image {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-content .content {
+    font-size: 14px;
+    margin: 1rem;
+}
+
+.card-content .content h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.no-users {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #7baf00;
+    margin-top: 20px;
+}
